@@ -1,0 +1,29 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+#outer { 
+    font-size: 25px;
+    text-align: center;
+}
+
+#inner {
+    font-size: 10px;
+    text-align: end;
+    text-decoration: underline;
+}
+
+
+input {
+    background-color: violet;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}

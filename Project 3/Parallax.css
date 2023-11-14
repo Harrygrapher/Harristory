@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.Compo-image {
+    background-image: url(Composition.jpg);
+    min-height: 100%;
+
+}
+
+.H&S-image {
+    background-image: url(High&Shadow.jpg);
+    min-height: 400px;
+
+}
+
+.Ref-image {
+    background-image: url(Reflection.jpg);
+    min-height: 400px;
+
+}
+
+.Compo-image, .High&Shadow, .Reflection {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.Compo-text {
+    -ms-flex-item-align: centers;
+}
